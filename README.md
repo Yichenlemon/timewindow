@@ -2,6 +2,8 @@
 
 **Windows 悬浮时钟 · Floating Clock for Windows**
 
+https://github.com/Yichenlemon/
+
 基于 Android 应用 `com.likpia.timewindow` 完整复刻的**单文件 Windows 版本**，纯 Win32/GDI+ 实现，无 Electron、无运行时依赖，EXE 仅约 290 KB（远低于 5MB 限制）。
 
 [中文目录](#中文) · [English TOC](#english) · [下载 Releases](#下载-下载) · [仓库地址](https://github.com/Yichenlemon/timewindow)

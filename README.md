@@ -22,9 +22,12 @@
   <a href="https://github.com/Yichenlemon/timewindow"><img alt="Repo size" src="https://img.shields.io/github/repo-size/Yichenlemon/timewindow?label=Size&color=22c55e&style=flat-square"/></a>
   <a href="#"><img alt="C / Win32" src="https://img.shields.io/badge/C%20%2F%20Win32-136FF0?style=flat-square"/></a>
   <a href="#"><img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-0aa2c0?style=flat-square"/></a>
+  <a href="#"><img alt="Build" src="https://img.shields.io/badge/Build-passing-22c55e?style=flat-square&logo=github"/></a>
 </p>
 
-[中文目录](#中文) · [English TOC](#english) · [下载 Releases](#下载-下载) · [仓库地址](https://github.com/Yichenlemon/timewindow)
+<p align="center">
+  [中文目录](#中文) · [English TOC](#english) · [下载 Releases](#下载-下载) · [仓库地址](https://github.com/Yichenlemon/timewindow)
+</p>
 
 ---
 
@@ -193,5 +196,22 @@ g++ timewindow.c timewindow.res -o timewindow.exe -mwindows \
 - Made for learning and sharing.
 
 ---
+
+## 项目数据与快速上手
+
+### 仓库统计
+<img src="https://github-readme-stats.vercel.app/api/card?repo=Yichenlemon/timewindow" width="420" alt="Repo stats"/>
+
+### Star 历史
+<img src="https://starchart.cc/Yichenlemon/timewindow.svg" width="420" alt="Star history"/>
+
+### 快速上手
+| 操作 | 方法 |
+| --- | --- |
+| 拖动悬浮窗 | 按住悬浮窗拖动（未锁定状态下） |
+| 呼出菜单 | 右键悬浮窗 或 托盘图标 |
+| 打开设置 | 托盘菜单「显示设置」 |
+| 关闭悬浮窗 | 托盘菜单「隐藏悬浮窗」 |
+| 退出程序 | 托盘菜单「退出」 |
 
 > ⚠️ 本项目为个人学习项目，若用于商业或分发请自行评估版权与许可风险。

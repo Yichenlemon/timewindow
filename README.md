@@ -32,9 +32,18 @@
 - 🪟 **单文件交付**：单 EXE，无控制台窗口，`-mwindows` 编译；内含图标与 UTF-8 中文资源信息
 
 ### 界面截图
-![主设置界面](screenshots/settings.png)
+两张图左右并排，下方为图注。
 
-![悬浮时钟（GIF）](screenshots/float.gif)
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/settings.png" width="330" alt="主设置界面"/></td>
+    <td align="center"><img src="screenshots/float.gif" width="330" alt="悬浮时钟"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>主设置界面 · 完整配置项</em></td>
+    <td align="center"><em>悬浮时钟 · 实时显示（GIF）</em></td>
+  </tr>
+</table>
 
 ### 18 种时间格式
 还原自原版 APP 的全部预先格式，覆盖年份、月份、星期、时分秒，并完整保留：
@@ -99,9 +108,18 @@ A lightweight **floating clock** for Windows, fully faithful to the Android app 
 - 🪟 **Single file**: no console window (`-mwindows`), icon + UTF-8 Chinese version info embedded
 
 ### Screenshots
-![Settings window](screenshots/settings.png)
+Two images side by side, with captions below.
 
-![Floating clock (GIF)](screenshots/float.gif)
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/settings.png" width="330" alt="Settings window"/></td>
+    <td align="center"><img src="screenshots/float.gif" width="330" alt="Floating clock"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Settings window · full configuration</em></td>
+    <td align="center"><em>Floating clock · live display (GIF)</em></td>
+  </tr>
+</table>
 
 ### 18 Time Formats
 All presets restored from the original app, covering year / month / weekday / time, including:

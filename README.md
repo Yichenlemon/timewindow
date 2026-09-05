@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  [中文目录](#中文) · [English TOC](#english) · [下载 Releases](#下载-下载) · [仓库地址](https://github.com/Yichenlemon/timewindow)
+  <a href="#中文">中文目录</a> · <a href="#english">English TOC</a> · <a href="#下载与安装">下载 Releases</a>
 </p>
 
 ---

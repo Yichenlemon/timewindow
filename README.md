@@ -24,8 +24,6 @@
   <a href="#"><img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-0aa2c0?style=flat-square"/></a>
 </p>
 
-基于 Android 应用 `com.likpia.timewindow` 完整复刻的**单文件 Windows 版本**，纯 Win32/GDI+ 实现，无 Electron、无运行时依赖，EXE 仅约 290 KB（远低于 5MB 限制）。
-
 [中文目录](#中文) · [English TOC](#english) · [下载 Releases](#下载-下载) · [仓库地址](https://github.com/Yichenlemon/timewindow)
 
 ---
@@ -36,6 +34,7 @@
 
 ### 目录
 - [功能特性](#功能特性)
+- [技术栈](#技术栈)
 - [18 种时间格式](#18-种时间格式)
 - [下载与安装](#下载与安装)
 - [界面截图](#界面截图)
@@ -52,6 +51,13 @@
 - 🖱️ **平滑滚动**：设置界面双缓冲渲染，滚轮平滑滚动且遵循 Windows 系统滚动行数设置
 - 🌈 **统一图标**：托盘、标题栏、任务栏、文件图标采用一致的线性渐变蓝钟表
 - 🪟 **单文件交付**：单 EXE，无控制台窗口，`-mwindows` 编译；内含图标与 UTF-8 中文资源信息
+
+### 技术栈
+- 🅲 **语言**：C（原生 Win32 API + 自绘界面）
+- 🎨 **图形**：GDI+（抗锯齿、渐变、透明悬浮窗）
+- 🎛️ **控件**：Common Controls v6（Visual Styles / 应用清单）
+- 🔨 **构建**：MinGW-w64 + GCC + windres
+- 🪟 **交付**：单文件 EXE，`-mwindows`，无运行时依赖；兼容 Windows 7/10/11
 
 ### 界面截图
 两张图左右并排，下方为图注。
@@ -100,7 +106,6 @@ g++ timewindow.c timewindow.res -o timewindow.exe -mwindows \
 
 ### 关于
 - © 亦辰曦
-- 🔄 复刻自：`com.likpia.timewindow`
 - 本项目仅供学习与交流使用。
 
 ---
@@ -113,6 +118,8 @@ A lightweight **floating clock** for Windows, fully faithful to the Android app 
 
 ### TOC
 - [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
 - [18 Time Formats](#18-time-formats)
 - [Download & Install](#download--install)
 - [Usage](#usage)
@@ -128,6 +135,13 @@ A lightweight **floating clock** for Windows, fully faithful to the Android app 
 - 🖱️ **Smooth scrolling**: double-buffered settings UI, wheel speed follows system setting
 - 🌈 **Consistent icon**: tray / title bar / taskbar / file icon share one gradient-blue clock
 - 🪟 **Single file**: no console window (`-mwindows`), icon + UTF-8 Chinese version info embedded
+
+### Tech Stack
+- 🅲 **Language**: C (native Win32 API + custom-drawn UI)
+- 🎨 **Graphics**: GDI+ (anti-aliasing, gradients, transparent floating window)
+- 🎛️ **Controls**: Common Controls v6 (Visual Styles / app manifest)
+- 🔨 **Build**: MinGW-w64 + GCC + windres
+- 🪟 **Delivery**: single-file EXE, `-mwindows`, no runtime dependency; Windows 7/10/11
 
 ### Screenshots
 Two images side by side, with captions below.
@@ -176,9 +190,8 @@ g++ timewindow.c timewindow.res -o timewindow.exe -mwindows \
 
 ### About
 - © 亦辰曦
-- 🔄 Clone of: `com.likpia.timewindow`
-- Made for learning and sharing. Please respect the original app’s license.
+- Made for learning and sharing.
 
 ---
 
-> ⚠️ 本项目仅为个人学习复刻，若用于商业或分发请自行评估版权与许可风险。
+> ⚠️ 本项目为个人学习项目，若用于商业或分发请自行评估版权与许可风险。

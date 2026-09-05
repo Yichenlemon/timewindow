@@ -16,6 +16,7 @@
 - [功能特性](#功能特性)
 - [18 种时间格式](#18-种时间格式)
 - [下载与安装](#下载与安装)
+- [界面截图](#界面截图)
 - [使用说明](#使用说明)
 - [界面与主题](#界面与主题)
 - [从源码编译](#从源码编译)
@@ -62,7 +63,7 @@ g++ timewindow.c timewindow.res -o timewindow.exe -mwindows \
 其中 `timewindow.res` 由 `windres timewindow.rc -O coff -o timewindow.res` 生成（内含应用 manifest、图标与版本信息）。图标源文件为 `app.ico`，可用 `icon_gen.py`（需 Pillow）重新生成。
 
 ### 关于
-- 📦 版本：v1.2.0 · © 亦辰曦
+- © 亦辰曦
 - 🔄 复刻自：`com.likpia.timewindow`
 - 本项目仅供学习与交流使用。
 
@@ -124,7 +125,7 @@ g++ timewindow.c timewindow.res -o timewindow.exe -mwindows \
 `timewindow.res` comes from `windres timewindow.rc -O coff -o timewindow.res` (embeds the manifest, icon and version info). The icon source is `app.ico`; regenerate it with `icon_gen.py` (requires Pillow) if needed.
 
 ### About
-- 📦 Version: v1.2.0 · © 亦辰曦
+- © 亦辰曦
 - 🔄 Clone of: `com.likpia.timewindow`
 - Made for learning and sharing. Please respect the original app’s license.
 

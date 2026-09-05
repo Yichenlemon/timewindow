@@ -31,6 +31,11 @@
 - 🌈 **统一图标**：托盘、标题栏、任务栏、文件图标采用一致的线性渐变蓝钟表
 - 🪟 **单文件交付**：单 EXE，无控制台窗口，`-mwindows` 编译；内含图标与 UTF-8 中文资源信息
 
+### 界面截图
+![主设置界面](screenshots/settings.png)
+
+![悬浮时钟（GIF）](screenshots/float.gif)
+
 ### 18 种时间格式
 还原自原版 APP 的全部预先格式，覆盖年份、月份、星期、时分秒，并完整保留：
 - **农历**（初几、几月）
@@ -92,6 +97,11 @@ A lightweight **floating clock** for Windows, fully faithful to the Android app 
 - 🖱️ **Smooth scrolling**: double-buffered settings UI, wheel speed follows system setting
 - 🌈 **Consistent icon**: tray / title bar / taskbar / file icon share one gradient-blue clock
 - 🪟 **Single file**: no console window (`-mwindows`), icon + UTF-8 Chinese version info embedded
+
+### Screenshots
+![Settings window](screenshots/settings.png)
+
+![Floating clock (GIF)](screenshots/float.gif)
 
 ### 18 Time Formats
 All presets restored from the original app, covering year / month / weekday / time, including:

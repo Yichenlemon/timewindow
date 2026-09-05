@@ -1,0 +1,10 @@
+# 编译中间产物
+*.o
+*.res
+
+# 调试临时文件
+check1.manifest
+RCa41832
+
+# 调试截图
+shot_*.png

@@ -2,7 +2,16 @@
 
 **Windows 悬浮时钟 · Floating Clock for Windows**
 
-https://github.com/Yichenlemon/
+<p align="center">
+  <a href="https://github.com/Yichenlemon/timewindow/releases">
+    <img alt="Release" src="https://img.shields.io/github/v/release/Yichenlemon/timewindow?label=Release&color=136FF0"></a>
+  <a href="https://github.com/Yichenlemon/timewindow/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/Yichenlemon/timewindow?color=52B7FF"></a>
+  <a href="https://github.com/Yichenlemon/timewindow/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/Yichenlemon/timewindow?color=ff6b6b"></a>
+  <a href="https://github.com/Yichenlemon">
+    <img width="22" style="border-radius:50%;" src="https://github.com/Yichenlemon.png" alt="亦辰曦"></a>
+</p>
 
 基于 Android 应用 `com.likpia.timewindow` 完整复刻的**单文件 Windows 版本**，纯 Win32/GDI+ 实现，无 Electron、无运行时依赖，EXE 仅约 290 KB（远低于 5MB 限制）。
 

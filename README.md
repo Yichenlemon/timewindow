@@ -3,14 +3,25 @@
 **Windows 悬浮时钟 · Floating Clock for Windows**
 
 <p align="center">
-  <a href="https://github.com/Yichenlemon/timewindow/releases">
-    <img alt="Release" src="https://img.shields.io/github/v/release/Yichenlemon/timewindow?label=Release&color=136FF0"></a>
-  <a href="https://github.com/Yichenlemon/timewindow/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/Yichenlemon/timewindow?color=52B7FF"></a>
-  <a href="https://github.com/Yichenlemon/timewindow/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/Yichenlemon/timewindow?color=ff6b6b"></a>
   <a href="https://github.com/Yichenlemon">
-    <img width="22" style="border-radius:50%;" src="https://github.com/Yichenlemon.png" alt="亦辰曦"></a>
+    <img src="https://github.com/Yichenlemon.png" width="90" style="border-radius:50%;" alt="亦辰曦"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yichenlemon/timewindow/releases"><img alt="Release" src="https://img.shields.io/github/v/release/Yichenlemon/timewindow?label=Release&color=136FF0&style=flat-square"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yichenlemon/timewindow/total?label=Downloads&color=52B7FF&style=flat-square"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Yichenlemon/timewindow?label=Stars&style=flat-square"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/network"><img alt="Forks" src="https://img.shields.io/github/forks/Yichenlemon/timewindow?label=Forks&style=flat-square"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/Yichenlemon/timewindow?label=Watchers&style=flat-square"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Yichenlemon/timewindow/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Yichenlemon/timewindow?label=Issues&color=ff6b6b&style=flat-square"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/pulls"><img alt="PRs" src="https://img.shields.io/github/issues-pr/Yichenlemon/timewindow?label=PRs&color=7c5cff&style=flat-square"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Yichenlemon/timewindow?style=flat-square&color=22c55e"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow"><img alt="Repo size" src="https://img.shields.io/github/repo-size/Yichenlemon/timewindow?label=Size&color=22c55e&style=flat-square"/></a>
+  <a href="#"><img alt="C / Win32" src="https://img.shields.io/badge/C%20%2F%20Win32-136FF0?style=flat-square"/></a>
+  <a href="#"><img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-0aa2c0?style=flat-square"/></a>
 </p>
 
 基于 Android 应用 `com.likpia.timewindow` 完整复刻的**单文件 Windows 版本**，纯 Win32/GDI+ 实现，无 Electron、无运行时依赖，EXE 仅约 290 KB（远低于 5MB 限制）。

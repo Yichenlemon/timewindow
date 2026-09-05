@@ -200,10 +200,14 @@ g++ timewindow.c timewindow.res -o timewindow.exe -mwindows \
 ## 项目数据与快速上手
 
 ### 仓库统计
-<img src="https://github-readme-stats.vercel.app/api/card?repo=Yichenlemon/timewindow" width="420" alt="Repo stats"/>
+![GitHub Overview](https://denisetiya-github-stats.vercel.app/api/all?username=Yichenlemon&source=public&theme=github)
 
-### Star 历史
-<img src="https://starchart.cc/Yichenlemon/timewindow.svg" width="420" alt="Star history"/>
+### 项目指标
+<p align="center">
+  <a href="https://github.com/Yichenlemon/timewindow/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Yichenlemon/timewindow?label=Stars&style=for-the-badge"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yichenlemon/timewindow/total?label=Downloads&style=for-the-badge"/></a>
+  <a href="https://github.com/Yichenlemon/timewindow/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Yichenlemon/timewindow?label=Issues&style=for-the-badge&color=ff6b6b"/></a>
+</p>
 
 ### 快速上手
 | 操作 | 方法 |
